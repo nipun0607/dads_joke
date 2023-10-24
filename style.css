@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url("https://c8.alamy.com/comp/2BXK7MG/ha-ha-laugh-seamless-pattern-lol-lmao-vector-funny-letters-background-for-joke-prank-comadeian-print-card-or-web-seamless-graphic-background-2BXK7MG.jpg");
+}
+.main_container{
+    width:80%;
+    height: 50%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    border-radius: 10px;
+
+}
+.joke_btn{
+    margin:2rem 2rem;
+    padding:1rem 2rem;
+    background-color: black;
+    color:#fff;
+   font-size: 1rem;
+    font:bold;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.heading{
+    color:aliceblue;
+    top:-10px;
+}
+.joke{
+    font-size:2rem;
+    color:aliceblue
+}
